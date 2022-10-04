@@ -1,0 +1,79 @@
+## Python程式
+
+、、、
+-(Join Two Lists)
+
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+
+for x in list2:
+  list1.append(x)
+
+print(list1)
+
+、、、
+-(Slicing)
+
+b = "Hello, World!"
+print(b[2:5])
+
+、、、
+-(Slicing)
+
+b = "Hello, World!"
+print(b[:5])
+
+、、、
+-(String Concatenation)
+
+a = "Hello"
+b = "World"
+c = a + " " + b
+print(c)
+
+、、、
+-(Python Numbers)
+
+x = 1
+y = 35656222554887711
+z = -3255522
+
+print(type(x))
+print(type(y))
+print(type(z))
+
+、、、
+-(Python Logical Operators)
+
+x = 5
+
+print(x > 3 and x < 10)
+
+、、、
+-(Python Dictionaries)
+
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)
+
+、、、
+-(Python - Add Dictionary Items
+)
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict["color"] = "red"
+print(thisdict)
+
+、、、
+
+
+
+
+
+
