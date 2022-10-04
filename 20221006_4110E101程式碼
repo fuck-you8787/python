@@ -1,0 +1,216 @@
+## Python程式
+
+#整數的各種運算
+、、、、、、、、、、、、
+-(Python Arithmetic Operators)
+x = 12
+y = 3
+print(x / y)
+、、、、、、、、、、、、
+-(Assignment operators)
+x = 5
+x *= 3
+print(x)
+、、、、、、、、、、、、
+-(Comparison operators)
+x = 5
+y = 3
+print(x > y)
+、、、、、、、、、、、、
+-(Logical operators)
+x = 5
+print(x > 3 or x < 4)
+、、、、、、、、、、、、
+-(Identity operators)
+x = ["apple", "banana"]
+y = ["apple", "banana"]
+z = x
+print(x is z)
+print(x is y)
+print(x == y)
+、、、、、、、、、、、、
+-(Membership operators)
+x = ["apple", "banana"]
+print("banana" in x)
+、、、、、、、、、、、、
+-(Bitwise operators)
+print(10&5)
+
+#字串str的各種運算
+、、、、、、、、、、、、
+-( Slicing Strings)
+b = "Hello, World!"
+print(b[2:5])
+、、、
+-( Modify Strings)
+a = "Hello, World!"
+print(a.lower())
+、、、、、、、、、、、、
+-(String Concatenation)
+a = "Hello"
+b = "World"
+c = a + " " + b
+print(c)
+、、、、、、、、、、、、
+-(String Format)
+age = 36
+txt = "My name is John, and I am {}"
+print(txt.format(age))
+、、、、、、、、、、、、
+-(Escape Characters)
+txt = "We are the so-called \"Vikings\" from the north."
+、、、、、、、、、、、、
+-(String Methods)
+txt = "hello, and welcome to my world."
+x = txt.capitalize()
+print (x)
+、、、、、、、、、、、、
+-(Access List Items)
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[2:5])
+、、、、、、、、、、、、
+-(Change List Items)
+thislist = ["apple", "banana", "cherry"]
+thislist[1:2] = ["blackcurrant", "watermelon"]
+print(thislist)
+、、、、、、、、、、、、
+-(Add List Items)
+thislist = ["apple", "banana", "cherry"]
+tropical = ["mango", "pineapple", "papaya"]
+thislist.extend(tropical)
+print(thislist)
+、、、、、、、、、、、、
+-(Remove List Items)
+thislist = ["apple", "banana", "cherry"]
+del thislist[0]
+print(thislist)
+、、、、、、、、、、、、
+-(Loop Lists)
+thislist = ["apple", "banana", "cherry"]
+for x in thislist:
+  print(x)
+、、、、、、、、、、、、
+-(List Comprehension)
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+for x in fruits:
+  if "a" in x:
+    newlist.append(x)
+print(newlist)
+、、、、、、、、、、、、
+-(Sort Lists)
+thislist = [100, 50, 65, 82, 23]
+thislist.sort()
+print(thislist)
+、、、、、、、、、、、、
+-(Copy Lists)
+thislist = ["apple", "banana", "cherry"]
+mylist = thislist.copy()
+print(mylist)
+、、、、、、、、、、、、
+-(Join Lists)
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+list3 = list1 + list2
+print(list3)
+、、、、、、、、、、、、
+-(Python List append() Method)
+fruits = ["apple", "banana", "cherry"]
+fruits.append("orange")
+print(fruits)
+#字典dict的各種運算
+、、、、、、、、、、、、
+-(Access Items)
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+x = thisdict["model"]
+print(x)
+、、、、、、、、、、、、
+-(Change Items)
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict["year"] = 2018
+print(thisdict)
+、、、、、、、、、、、、
+-(Add Items)
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict["color"] = "red"
+print(thisdict)
+、、、、、、、、、、、、
+-(Remove Items)
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict.pop("model")
+print(thisdict)
+、、、、、、、、、、、、
+-(Loop Dictionaries)
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+for x in thisdict:
+  print(thisdict[x])
+、、、、、、、、、、、、
+-(Copy Dictionaries)
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+mydict = thisdict.copy()
+print(mydict)
+、、、、、、、、、、、、
+-(Nested Dictionaries)
+myfamily = {
+  "child1" : {
+    "name" : "Emil",
+    "year" : 2004
+  },
+  "child2" : {
+    "name" : "Tobias",
+    "year" : 2007
+  },
+  "child3" : {
+    "name" : "Linus",
+    "year" : 2011
+  }
+}
+
+print(myfamily)
+、、、、、、、、、、、、
+-(Dictionary Methods
+)
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+car.clear()
+print(car)
+、、、、、、、、、、、、
+
+
+
+
+
+
+
+
+
+
+
+
